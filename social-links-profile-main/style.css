@@ -1,0 +1,98 @@
+@font-face {
+    font-family: inter;
+    src: url(/assets/fonts/static/Inter-Regular.ttf) format("ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    
+}
+
+.maincontainer img {
+    border-radius: 50%;
+    width: 80px; 
+    height: 80px;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 1.25rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
+    background-color: #141414;
+    min-height: 100vh;
+}
+
+.maincontainer h1 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.maincontainer h1 span {
+    color: #c5f82a;
+    display: block;
+    font-size: 1rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.maincontainer {
+    background-color: #1f1f1f;
+    max-width: 400px;
+    width: 100%;
+    padding: 24px; 
+    border-radius: 10px;
+}
+
+
+.maincontainer ul {
+    list-style-type: none;
+    display: grid;
+    gap:0.5rem;
+    margin-top: 2rem;
+}
+
+.maincontainer p {
+    color: #fff;
+    text-align: center;
+    
+}
+
+.maincontainer ul li button {
+    background-color: 	#333333;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;  
+    outline: none;
+    cursor:pointer; 
+    transition: all 0.15s ease-in-out;
+    
+}
+
+.maincontainer ul li button:hover {
+background-color: #c5f82a;
+color: #1f1f1f;
+}
+
+.attribution { 
+    font-size: 13px; 
+    text-align: center;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
